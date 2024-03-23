@@ -6,6 +6,7 @@ import cors from "cors";
 const app = Express()
 
 app.use(Express.json());
+app.use(Express.static("public"));
 app.use(cors());
 
 
